@@ -43,13 +43,14 @@ h2 {
     color: #E3F2FD;
 }
 
+/* Media Queries pro responzivitu */
 @media (max-width: 768px) {
     body {
         margin: 2% 2%;
     }
 
     h1 {
-        font-size: 48px;
+        font-size: 150%; /* Zvýšení velikosti textu */
     }
 
     #header, #skills, #info, #contact {
@@ -57,20 +58,24 @@ h2 {
     }
 
     #info img, #skills img, #contact img {
-        width: 3vw;
+        width: 6vw; /* Zvýšení šířky ikonek */
+    }
+
+    span {
+        font-size: 180%; /* Zvýšení velikosti textu */
     }
 }
 
 @media (max-width: 480px) {
     h1 {
-        font-size: 36px;
+        font-size: 200%; /* Zvýšení velikosti textu */
     }
 
     #info img, #skills img, #contact img {
-        width: 5vw;
+        width: 12vw; /* Zvýšení šířky ikonek */
     }
 
     span {
-        font-size: 14px;
+        font-size: 200%; /* Zvýšení velikosti textu */
     }
 }
