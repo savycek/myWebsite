@@ -50,7 +50,7 @@ h2 {
     }
 
     h1 {
-        font-size: 120%; /* Zvýšení velikosti textu */
+        font-size: 150%; /* Zvýšení velikosti textu */
     }
 
     #header, #skills, #info, #contact {
@@ -58,24 +58,24 @@ h2 {
     }
 
     #info img, #skills img, #contact img {
-        width: 5vw; /* Zvýšení šířky ikonek */
+        width: 6vw; /* Zvýšení šířky ikonek */
     }
 
     span {
-        font-size: 150%; /* Zvýšení velikosti textu */
+        font-size: 180%; /* Zvýšení velikosti textu */
     }
 }
 
 @media (max-width: 480px) {
     h1 {
-        font-size: 140%; /* Zvýšení velikosti textu */
+        font-size: 200%; /* Zvýšení velikosti textu */
     }
 
     #info img, #skills img, #contact img {
-        width: 10vw; /* Zvýšení šířky ikonek */
+        width: 12vw; /* Zvýšení šířky ikonek */
     }
 
     span {
-        font-size: 170%; /* Zvýšení velikosti textu */
+        font-size: 200%; /* Zvýšení velikosti textu */
     }
 }
