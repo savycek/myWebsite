@@ -9,7 +9,7 @@ body {
     background: #1E2A38;
     color: #E3F2FD;
     margin: 2% 0 0 5%;
-    font-size: 1.2rem; /* Výchozí velikost textu */
+    font-size: 1rem; /* Výchozí velikost textu */
 }
 
 /* Nadpisy */
@@ -40,7 +40,7 @@ h2 {
 
 /* Opravené ikony */
 #info img, #skills img, #contact img {
-    width: 2rem; /* Pevná velikost místo vw */
+    width: 1rem; /* Pevná velikost místo vw */
 }
 
 /* TABLETY */
