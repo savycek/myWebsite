@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'Satoshi';
+    src: url('/fonts/Satoshi-Variable.woff2') format('woff2');
+    font-weight: 300 900;
+}
+
+body {
+    font-family: 'Satoshi', sans-serif;
+    background: #1E2A38;
+    color: #E3F2FD;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 60px;
+    margin: 0;
+}
+
+#header, #info {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 500px;
+}
+
+#info span {
+    font-size: 18px;
+}
+
+button {
+    background: #E3F2FD;
+    color: #1E2A38;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+a {
+    text-decoration: none;
+}

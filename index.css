@@ -26,13 +26,12 @@ h2 {
     flex-direction: column;
     gap: 5px;
     margin-bottom: 10px;
-    width: 700px;
 }
 
 #info div, #skills div, #contact div {
     display: flex;
-    align-items: center; /* Zarovná ikonku a text na střed vertikálně */
-    gap: 8px; /* Mezera mezi ikonou a textem */
+    align-items: center;
+    gap: 8px;
 }
 
 #info img, #skills img, #contact img {
@@ -42,4 +41,36 @@ h2 {
 #info a, #skills a, #contact a {
     text-decoration: none;
     color: #E3F2FD;
+}
+
+@media (max-width: 768px) {
+    body {
+        margin: 2% 2%;
+    }
+
+    h1 {
+        font-size: 48px;
+    }
+
+    #header, #skills, #info, #contact {
+        width: 100%;
+    }
+
+    #info img, #skills img, #contact img {
+        width: 3vw;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 36px;
+    }
+
+    #info img, #skills img, #contact img {
+        width: 5vw;
+    }
+
+    span {
+        font-size: 14px;
+    }
 }
