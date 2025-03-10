@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Satoshi';
+    src: url('/fonts/Satoshi-Variable.woff2') format('woff2');
+    font-weight: 300 900;
+}
+
+body {
+    font-family: 'Satoshi', sans-serif;
+    background: #1E2A38;
+    color: #E3F2FD;
+    margin: 2% 0 0 5%;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 60px;
+    margin-bottom: -2px;
+}
+
+h2 {
+    margin: 0;
+}
+
+#header, #skills, #info, #contact {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 10px;
+    width: 700px;
+}
+
+#info div, #skills div, #contact div {
+    display: flex;
+    align-items: center; /* Zarovná ikonku a text na střed vertikálně */
+    gap: 8px; /* Mezera mezi ikonou a textem */
+}
+
+#info img, #skills img, #contact img {
+    width: 1vw;
+}
+
+#info a, #skills a, #contact a {
+    text-decoration: none;
+    color: #E3F2FD;
+}
