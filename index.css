@@ -9,19 +9,22 @@ body {
     background: #1E2A38;
     color: #E3F2FD;
     margin: 2% 0 0 5%;
+    font-size: 1.2rem; /* Výchozí velikost textu */
 }
 
+/* Nadpisy */
 h1 {
     font-weight: 700;
-    font-size: 60px;
+    font-size: 3.75rem; /* 60px */
     margin-bottom: -2px;
 }
 
 h2 {
     margin: 0;
-    font-size: 28px;
+    font-size: 1.75rem; /* 28px */
 }
 
+/* Struktura */
 #header, #skills, #info, #contact {
     display: flex;
     flex-direction: column;
@@ -35,48 +38,45 @@ h2 {
     gap: 8px;
 }
 
+/* Opravené ikony */
 #info img, #skills img, #contact img {
-    width: 1.5vw;
+    width: 2rem; /* Pevná velikost místo vw */
 }
 
+/* TABLETY */
 @media screen and (max-width: 1024px) {
     body {
-        margin: 5%;
-        font-size: 20px;
+        font-size: 1.4rem;
     }
 
     h1 {
-        font-size: 50px;
+        font-size: 3rem;
     }
 
     h2 {
-        font-size: 26px;
+        font-size: 1.5rem;
     }
 
     #info img, #skills img, #contact img {
-        width: 35px;
+        width: 2.5rem;
     }
 }
 
+/* MOBILY */
 @media screen and (max-width: 480px) {
     body {
-        font-size: 24px;
+        font-size: 1rem; /* Nezmenšujeme drasticky */
     }
 
     h1 {
-        font-size: 40px;
+        font-size: 2.5rem;
     }
 
     h2 {
-        font-size: 23px;
+        font-size: 1.25rem;
     }
 
     #info img, #skills img, #contact img {
-        width: 20px;
-    }
-
-    #info div, #skills div, #contact div {
-        gap: 12px;
-        font-size: 20px;
+        width: 1rem;
     }
 }
