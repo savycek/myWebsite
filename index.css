@@ -1,82 +1,18 @@
-@font-face {
-    font-family: 'Satoshi';
-    src: url('/fonts/Satoshi-Variable.woff2') format('woff2');
-    font-weight: 300 900;
-}
-
 body {
-    font-family: 'Satoshi', sans-serif;
-    background: #1E2A38;
-    color: #E3F2FD;
-    margin: 2% 0 0 5%;
-    font-size: 1rem; /* Výchozí velikost textu */
-}
-
-/* Nadpisy */
-h1 {
-    font-weight: 700;
-    font-size: 3.75rem; /* 60px */
-    margin-bottom: -2px;
-}
-
-h2 {
-    margin: 0;
-    font-size: 1.75rem; /* 28px */
-}
-
-/* Struktura */
-#header, #skills, #info, #contact {
+    font-family: "Times New Roman", serif;
+    background: #000000;
+    color: #ffffff;
+    font-size: 3rem;
     display: flex;
-    flex-direction: column;
-    gap: 5px;
-    margin-bottom: 10px;
-}
-
-#info div, #skills div, #contact div {
-    display: flex;
+    justify-content: center;
     align-items: center;
-    gap: 8px;
+    text-align: center;
+    height: 100vh;
+    margin: 0;
+    line-height: 1rem;
 }
 
-/* Opravené ikony */
-#info img, #skills img, #contact img {
-    width: 1rem; /* Pevná velikost místo vw */
-}
-
-/* TABLETY */
-@media screen and (max-width: 1024px) {
-    body {
-        font-size: 1.4rem;
-    }
-
-    h1 {
-        font-size: 3rem;
-    }
-
-    h2 {
-        font-size: 1.5rem;
-    }
-
-    #info img, #skills img, #contact img {
-        width: 2.5rem;
-    }
-}
-
-/* MOBILY */
-@media screen and (max-width: 480px) {
-    body {
-        font-size: 1rem; /* Nezmenšujeme drasticky */
-    }
-
-    h1 {
-        font-size: 2.5rem;
-    }
-
-    h2 {
-        font-size: 1.25rem;
-    }
-
-    #info img, #skills img, #contact img {
-        width: 1rem;
-    }
+#signature {
+    color: gray;
+    font-size: 1rem;
 }
